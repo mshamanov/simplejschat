@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JS Chat</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/ico/chat.ico" type="image/x-icon">
+  <script src="/scripts/view.js" type="text/javascript" defer></script>
+  <script src="/scripts/chat.js" type="text/javascript" defer></script>
+</head>
+<body>
+<div class="chat-wrapper scroll">
+  <section class="chat-wrapper__main">
+    <div class="chat-wrapper__main__messages"></div>
+    <div class="chat-wrapper__main__users">
+      <p>Users</p>
+      <ul></ul>
+    </div>
+  </section>
+  <section class="chat-wrapper__actions">
+    <form class="chat-wrapper__actions__form">
+      <input type="text" id="msg" name="msg" value="" placeholder="" required>
+      <button type="submit" class="btn">Send</button>
+      <button id="logoutBtn" type="button" class="btn">Logout</button>
+    </form>
+  </section>
+</div>
+</body>
+</html>
