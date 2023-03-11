@@ -1,0 +1,2 @@
+# simplejschat
+Simple JS chat
